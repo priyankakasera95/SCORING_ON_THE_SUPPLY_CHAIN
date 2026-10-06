@@ -1,25 +1,32 @@
-# Scoring on the Supply Chain | Power BI Analytics
+# Scoring on the Supply Chain | Sports Merchandise Analytics
 
 ## Executive Summary
-Analyzed $43.27M in net revenue across 29,000+ order logs to identify operational inefficiencies in customer retention, fulfillment delivery timelines, and order refund drivers.
+Engineered a Power BI supply chain and merchandise analytics dashboard analyzing ₹43.27M in net revenue across 26,000+ orders to evaluate fulfillment delivery lags, customer retention rates, and merchandise profitability.
 
-## Dashboard Preview
-Page 1
-<img width="1261" height="737" alt="Screenshot 2026-10-06 233604" src="https://github.com/user-attachments/assets/b7d93b31-042e-47a2-ab70-0c2a9f08f3db" />
+---
 
-Page 2
-<img width="1252" height="731" alt="Screenshot 2026-10-06 233620" src="https://github.com/user-attachments/assets/053516a9-5d35-40c3-a283-284c29d254a0" />
+## Dashboard Preview & Key Views
 
-Page 3
-<img width="1252" height="730" alt="Screenshot 2026-10-06 233641" src="https://github.com/user-attachments/assets/c8751e54-5d8d-42fb-98a0-74fb944a7052" />
+### 1. Executive Performance Overview
+<img width="1261" height="737" alt="Screenshot 2026-10-06 233604" src="https://github.com/user-attachments/assets/d17cbaf1-2cd9-46c4-a18a-169db34dc8a3" />
 
+### 2. Merchandise & Customer Retention Insights
+<img width="1252" height="731" alt="Screenshot 2026-10-06 233620" src="https://github.com/user-attachments/assets/deb97634-c16f-4022-97a1-214243227211" />
+
+### 3. Operational Delivery Lags & Returns Log
+<img width="1252" height="730" alt="Screenshot 2026-10-06 233641" src="https://github.com/user-attachments/assets/5eea9f5a-3fb6-496f-9002-bec54abedbe4" />
+
+---
 
 ## Key Outcomes & Business Impact
-* **Customer Retention:** Uncovered an **86% single-purchase retention churn** across customer cohorts.
-* **Refund Driver:** Isolated a **2-to-6+ day delivery lag spike** driving over **$2.5M in cumulative order refunds**.
+* **Revenue & Order Scale:** Analyzed **₹43.27M in net revenue** across **26,000+ transaction logs** with an average order value (AOV) of ₹1,646.
+* **Customer Retention Churn:** Uncovered a **13.98% repeat customer rate**, isolating an 86% single-purchase retention gap.
+* **Operational Delivery Impact:** Tracked average delivery lag spikes over a 2-year timeline to evaluate order refund triggers and fulfillment bottlenecks.
+
+---
 
 ## Technical Architecture
 * **Tooling:** Microsoft Power BI Desktop
 * **Data Modeling:** Star Schema Relational Architecture
-* **ETL & Transformation:** Power Query
-* **Calculations:** Dynamic DAX Measures & Column Calculations
+* **ETL & Data Transformation:** Power Query
+* **Calculations:** Dynamic DAX Measures (MoM Growth %, Net Revenue, Delivery Lags, Repeat Rates)
